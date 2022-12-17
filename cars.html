@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <title>PHPJabbers.com | Free Car Dealer Website Template</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="utf-8" />
+
+    <title>Tuts+ Chat Application</title>
+        <meta name="description" content="Tuts+ Chat Application" />
+        <link rel="stylesheet" href="chat.css   " />
+        <link href = "login.php"/>
+        <script type="text/javascript">
+            window.$crisp=[];window.CRISP_WEBSITE_ID="fcab8799-12cf-4605-9756-32dde1724806";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+        </script>
+ 
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">Shermas Conduct<em> Valley</em></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="cars.html" class="active">Cars</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                              
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="about.html">About Us</a>
+                                    <a class="dropdown-item" href="team.html">Team</a>
+                                    <a class="dropdown-item" href="terms.html">Terms</a>
+                                    <a class="dropdown-item" href="citations.html">Citations</a>
+                                </div>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li> 
+                            <div style="text-align: left;"><img src="assets/images/Logo.png" width="70" alt="My Image" /></div>
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Call to Action Start ***** -->
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <br>
+                        <br>
+                        <h2>Our <em>Cars</em></h2>
+                        <p>Many great options to choose from!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
+
+    <!-- ***** Fleet Starts ***** -->
+    <section class="section" id="trainers">
+        <div class="row" id="tabs">
+            <div class="col-lg-4">
+              <ul>
+                <li><a href='#tabs-1'><i class="fa fa-info-circle"></i> Vehicle Specs</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <section class='tabs-content' style="width: 100%;">
+                <article id='tabs-1'>
+                  <div class="row">
+                  </div>
+                </article>
+              </section>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="trainers">
+        <div class="container">
+            <br>
+            <br>
+            <div class="contact-form">
+                <form action="#" id="contact">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Used/New:</label>
+                     
+                                <select id = "condition">
+                                    <option value="all">All</option>
+                                    <option value="New">New vehicle</option>
+                                    <option value="Used">Used vehicle</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Vehicle Type:</label>
+                   
+                               <select id = "type">
+                                  <option value="all">All</option>
+                                    <option value="SUV">SUV</option>
+                                    <option value="Convertable">Convertable</option>
+                                    <option value="Sports">Sports</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Make:</label>
+                   
+                               <select id = "make">
+                                  <option value="all">All</option>
+                                    <option value="Dacia">Dacia</option>
+                                    <option value="BMW">BMW</option>
+                                    <option value="Mazda">Mazda</option>
+                                    <option value="Kia">Kia</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Model:</label>
+                   
+                               <select id = "model">
+                                  <option value="all">All</option>
+                                    <option value="">2000 - 2005</option>
+                                    <option value="">2006 - 2010</option>
+                                    <option value="">2011 - 2015</option>
+                                    <option value="">2016 - 2020</option>
+                                    <option value="">2021 - 2022</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Price:</label>
+                   
+                               <select id = "price">
+                                  <option value="all">All</option>
+                                    <option value="">$0 - $10 000 </option>
+                                    <option value="">$10 001 - $20 000</option>
+                                    <option value="">$20 001 - $40 000</option>
+                                    <option value="">$40 001 - $90 000</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Mileage:</label>
+                   
+                               <select id = "mileage">
+                                  <option value="all">All</option>
+                                    <option value="">0 mi - 15 000 mi</option>
+                                    <option value="">15 001 mi - 30 000 mi</option>
+                                    <option value="">30 001 mi - 60 000 mi</option>
+                                    <option value="">60 001 mi - 200 000 mi</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Engine size:</label>
+                   
+                               <select id = "engine">
+                                  <option value="all">All</option>
+                                    <option value="">0 - 1800</option>
+                                    <option value="">1801 - 2500</option>
+                                    <option value="">2501 - 3000</option>
+                                    <option value="">3001 - 4000</option>
+                                    <option value="">4001 - 5000</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Power:</label>
+                   
+                               <select id = "power">
+                                  <option value="all">All</option>
+                                    <option value="">0 hp - 100 hp</option>
+                                    <option value="">101 hp - 175 hp</option>
+                                    <option value="">176 hp - 250 hp</option>
+                                    <option value="">251 hp - 400 hp</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Fuel:</label>
+                   
+                               <select id = "fuel">
+                                  <option value="all">All</option>
+                                    <option value="Diesel">Diesel</option>
+                                    <option value="Electric">Electric</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Gearbox:</label>
+                   
+                               <select id = "gearbox">
+                                  <option value="all">All</option>
+                                    <option value="Manual">Manual</option>
+                                    <option value="Automatic">Automatic</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Number of Doors:</label>
+                   
+                               <select id = "doors">
+                                  <option value="all">All</option>
+                                    <option value="2">2</option>
+                                    <option value="4">4</option>
+                               </select>
+                          </div>
+                      </div>
+              
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                              <label>Number of Seats:</label>
+                   
+                               <select id = "seats">
+                                  <option value="all">All</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                               </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4 offset-sm-4">
+                      <div class="main-button text-center">
+                          <a href="#">Search</a>
+                      </div>
+                    </div>
+                    <br>
+                    <br>
+                </form>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product-1-720x480.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>$</sup>18999 </del> &nbsp; <sup>$</sup>12999
+                            </span>
+
+                            <h4> 2017 Dacia Sandero
+
+                            </h4>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 107 000mi &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="car-details-dacia.html">+ View Car</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product-2-720x480.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>$</sup>46999 </del> &nbsp; <sup>$</sup>42999
+                            </span>
+
+                            <h4>2001 BMW Z8</h4>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 90 000mi &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="car-details-bmw.html">+ View Car</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product-3-720x480.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>$</sup>27999 </del> &nbsp; <sup>$</sup>24999
+                            </span>
+
+                            <h4>2017 Mazda CX-5</h4>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 50 000mi &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Automatic &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="car-details-mazda.html">+ View Car</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product-4-720x480.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>$</sup>28355 </del> &nbsp; <sup>$</sup>25255
+                            </span>
+
+                            <h4>2020 Kia Sportage</h4>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 40 942mi &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 2400 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Autmatic &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="car-details-kia_sportage.html">+ View Car</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product-5-720x480.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>$</sup>42991 </del> &nbsp; <sup>$</sup>38950
+                            </span>
+
+                            <h4>2016 BMW M2</h4>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 84 524mi &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 3000 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="car-details-BMW_M2.html">+ View Car</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product-6-720x480.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>$</sup>60200 </del> &nbsp; <sup>$</sup>53100
+                            </span>
+
+                            <h4>2013 BMW M3</h4>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 71 164 mi &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 4000 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="car-details-BMW_M3.html">+ View Car</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+        </div>
+    </section>
+    <!-- ***** Fleet Ends ***** -->
+
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Copyright © 2022 Shermas Conduct Valley
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/accordions.js"></script>
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
